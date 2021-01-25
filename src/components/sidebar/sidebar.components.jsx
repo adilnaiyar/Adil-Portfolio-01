@@ -5,6 +5,7 @@ import avatar from '../../assets/icons/mighty-coder.svg';
 import resume from '../../assets/resume.pdf';
 import download from '../../assets/icons/download.svg';
 import pin from '../../assets/icons/pin.svg';
+import './sidebar.styles.css';
 
 const Sidebar = () => {
     const handleEmailMe = () => {

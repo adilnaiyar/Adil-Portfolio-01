@@ -1,4 +1,5 @@
 import React from 'react';
+import './skillcard.styles.css';
 
 const Skillcard = ({ skill: { icon, title, about } }) =>
     <div className="col-lg-6">

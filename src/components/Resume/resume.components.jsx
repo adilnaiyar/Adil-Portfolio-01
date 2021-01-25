@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 
 import Bar from './Bar/bar.components';
 import { tools, languages } from './data';
-
+import './resume.styles.css';
 
 const Resume = () => {
     const resume_variants = {

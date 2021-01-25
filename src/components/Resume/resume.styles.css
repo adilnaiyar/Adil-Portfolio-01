@@ -1,0 +1,34 @@
+/* resume */
+
+.resume {
+    padding-top: 20px;
+    margin-left: 10px;
+}
+
+.resume-card__heading,
+.reume-language__heading {
+    
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #354538;
+}
+
+.resume-card__body {
+    margin-top: 10px;
+}
+
+.resume-card__title {
+    font-size: 1.1rem;
+    font-weight: 500; 
+}
+
+.resume-card__name {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.resume-card__details {
+    font-size: 0.9rem;
+    padding-top: 5px;
+}
+

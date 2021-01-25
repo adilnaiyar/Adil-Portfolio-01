@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion'
 
 import ProjectData from './data';
-import ProjectCard from './projectCard.components';
+import ProjectCard from './projectCard/projectCard.components';
+import './project.styles.css';
 
 const Project = () => {
     const project_data = ProjectData;

@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 
 import SkillData from './data';
 import SkillCard from './skillcard/skillcard.components';
+import './about.styles.css';
 
 const About = () => {
     const skills = SkillData;
