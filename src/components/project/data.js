@@ -3,6 +3,7 @@ import burger_ghar from '../../assets/projects_images/burger_ghar.PNG';
 import code_blog from '../../assets/projects_images/code_blog.PNG';
 import indiatest from '../../assets/projects_images/indiatest.png';
 import web_coach from '../../assets/projects_images/web_coach.png';
+import an_gallery from '../../assets/projects_images/an_gallery.PNG';
 
 
 const ProjectData = [
@@ -20,6 +21,14 @@ const ProjectData = [
         deployed_url: 'https://burger-ghar.web.app/',
         github_url: 'https://github.com/adilnaiyar/burger-ghar',
         category: ['react.js', 'redux']
+    },
+
+    {
+        name: 'An Gallery',
+        image: an_gallery,
+        deployed_url: 'https://an-gallery.netlify.app/',
+        github_url:'https://github.com/adilnaiyar/an-gallery',
+        category: ['react.js', 'react-hook', 'framer-motion']
     },
 
     {
@@ -45,7 +54,6 @@ const ProjectData = [
         github_url:'https://github.com/adilnaiyar/web_coach',
         category: ['codeigniter','php','mysql']
     },
-
 ]
 
 export default ProjectData;
